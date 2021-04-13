@@ -1,0 +1,8 @@
+.characters {
+    overflow: scroll;
+    width: 100%;
+  }
+  
+  .character {
+    min-width: 280px;
+  }

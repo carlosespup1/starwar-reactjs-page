@@ -1,0 +1,7 @@
+const Types = {
+    GET_CHARACTERS: 'GET-CHARACTERS',
+    GET_FAVORITIES: 'GET-FAVORITIES',
+    GET_INFORMARION: 'GET-INFORMATION'
+}
+
+export default Types;
