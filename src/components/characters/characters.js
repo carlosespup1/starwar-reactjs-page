@@ -25,8 +25,7 @@ const Characters = () => {
                                     <Card.Title>{item.name}</Card.Title>
                                     <Card.Text>
                                         <p>Height: {item.height}</p>
-                                        <p>Gender: {item.gender}</p>
-                                        <p>Birth year: {item.birth_year}</p>
+                                        <p>Gender: {item.weight}</p>
                                     </Card.Text>
                                     <Button variant="primary">Information</Button>
                                     <Button variant="danger" className="mx-3" onClick={() => getFavoritie(item)}>Like</Button>

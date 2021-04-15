@@ -11,11 +11,11 @@ const AppState = (props) => {
     const [state, dispatch] = useReducer(Reducer, initialState);
 
     const getCharacters = async () => {
-        const data = await fetch('https://swapi.dev/api/people/');
+        const data = await fetch('https://3000-moccasin-swordtail-ktsl6e7o.ws-us03.gitpod.io/characters');
         const characters = await data.json();
         dispatch({
             type: 'GET-CHARACTERS',
-            payload: characters.results
+            payload: characters
         })
     }
 
